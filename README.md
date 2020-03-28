@@ -26,7 +26,7 @@ GetPropEntityArray|	 function(propertyName, index) - Returns the entity value in
 GetPropStringArray|	 function(propertyName, index) - Returns the string value in the index in the NetProp array.
 GetPropFloatArray|	   function(propertyName, index) - Returns the float value in the index in the NetProp array.
 GetPropVectorArray|	 function(propertyName, index) - Returns the Vector value in the index in the NetProp array.		
-SetPropIntArray|		  = function(propertyName, index, value) - Sets the index in the NetProp array to an integer.
+SetPropIntArray|		   function(propertyName, index, value) - Sets the index in the NetProp array to an integer.
 SetPropEntityArray|	 function(propertyName, index, value) - Sets the index in the NetProp array to an entity.
 SetPropStringArray|	 function(propertyName, index, value) - Sets the index in the NetProp array to a string.
 SetPropFloatArray|	   function(propertyName, index, value) - Sets the index in the NetProp array to a float.
@@ -43,9 +43,9 @@ SetName|				       function(name) - Set the targetname
 GetFriction|			     function() - Get the friction 		
 GetFlags|			       function() - Get entity flags
 SetFlags|			       function(flag) - Set entity flags
-AddFlag|				      = function(flag) - Add a specific flag
+AddFlag|				       function(flag) - Add a specific flag
 RemoveFlag|			     function(flag) - Remove a specific flag
-HasFlag|				      = function(flag) - Returns true if the entity has the flag		
+HasFlag|				       function(flag) - Returns true if the entity has the flag		
 GetMoveType|			     function() - Get the movetype
 SetMoveType|			     function(type) - Set the movetype		
 GetGlowType|			     function() - Get the glow type
